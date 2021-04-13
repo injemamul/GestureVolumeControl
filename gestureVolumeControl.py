@@ -33,7 +33,7 @@ maxVol = 100
 wCam, hCam = 640, 480
 #######################################
 
-cap = cv2.VideoCapture('/home/kaish/MLprojects/HandTrackingProject/videos/VolControl.mp4')
+cap = cv2.VideoCapture(0)
 cap.set(3, wCam)
 cap.set(4, hCam)
 pTime = 0
